@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+    <module jar="org-iesapp-modules-presencia.jar" class="org.iesapp.modules.presencia.PresenciaModule" autoStart="onDemand" multipleInstance="no" closable="yes">
+        <anchor location="menu" parentId="jMenuModules"/>
+        <anchor location="toolbar" parentId="jToolBarModules"/>
+        <display location="topwindow" parentId="center"/>
+        <bundle>
+            <locale key="title" value="ca"><![CDATA[Presència]]></locale>
+            <locale key="title" value="es"><![CDATA[Presencia]]></locale>
+            <locale key="title" value="default"><![CDATA[Presence]]></locale>
+            <locale key="description" value="default"><![CDATA[]]></locale>
+        </bundle>
+         <metaINF author="Josep Mulet (c) 2012" version="1.0" dependencies=""/>
+     </module>    
+</root>
