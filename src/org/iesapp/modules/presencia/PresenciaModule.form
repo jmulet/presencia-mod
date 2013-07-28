@@ -48,24 +48,27 @@
                   <Group type="102" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jLabel2" max="32767" attributes="0"/>
-                          <Group type="102" alignment="0" attributes="0">
-                              <Component id="jLabel5" min="-2" pref="69" max="-2" attributes="1"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jLabel6" pref="565" max="32767" attributes="1"/>
-                          </Group>
-                          <Component id="jScrollPane2" alignment="0" pref="640" max="32767" attributes="0"/>
+                          <Component id="jScrollPane2" alignment="0" max="32767" attributes="0"/>
                           <Component id="jPanel2" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jScrollPane1" alignment="0" max="32767" attributes="0"/>
                           <Group type="102" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
                                   <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
                                   <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
                                   <Component id="jLabel8" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jLabel3" min="-2" pref="302" max="-2" attributes="0"/>
+                                  </Group>
                               </Group>
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                           </Group>
-                          <Component id="jScrollPane1" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel5" min="-2" pref="69" max="-2" attributes="1"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel6" max="32767" attributes="1"/>
+                          </Group>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
@@ -75,15 +78,16 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
                       <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
-                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
-                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="jLabel5" min="-2" pref="33" max="-2" attributes="0"/>
                           <Component id="jLabel6" min="-2" pref="33" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
                       <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jScrollPane1" min="-2" pref="59" max="-2" attributes="0"/>
@@ -91,9 +95,9 @@
                       <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
                       <Component id="jScrollPane2" min="-2" pref="59" max="-2" attributes="0"/>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
                       <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="31" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
                       <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
@@ -236,12 +240,12 @@
                       <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Component id="jComboBox1" min="-2" pref="66" max="-2" attributes="0"/>
-                      <EmptySpace pref="552" max="32767" attributes="0"/>
+                      <EmptySpace pref="421" max="32767" attributes="0"/>
                   </Group>
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jScrollPane4" pref="640" max="32767" attributes="0"/>
+                          <Component id="jScrollPane4" pref="509" max="32767" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
                   </Group>
@@ -260,7 +264,7 @@
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
-                          <Component id="jScrollPane4" pref="309" max="32767" attributes="0"/>
+                          <Component id="jScrollPane4" pref="251" max="32767" attributes="0"/>
                           <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
                       </Group>
                   </Group>
@@ -283,7 +287,7 @@
                   </Properties>
                   <AuxValues>
                     <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JTable()&#xa;{&#xa;    public boolean isCellEditable(int rowIndex, int colIndex) {&#xa;        return false;   //Disallow the editing of any cell&#xa;    }&#xa;} "/>
-                    <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="jTable4.getTableHeader().setReorderingAllowed(false);&#xa;jTable4.setRowHeight(28);&#xa;&#xa;jTable4.getColumnModel().getColumn(0).setPreferredWidth(160);&#xa;jTable4.getColumnModel().getColumn(1).setPreferredWidth(90);&#xa;&#xa;//Columna de data + comentari&#xa;String[] resources = new String[]{&quot;/org/iesapp/framework/icons/blank.gif&quot;,&quot;/org/iesapp/modules/presencia/icons/postit.gif&quot;};&#xa;jTable4.getColumnModel().getColumn(1).setCellRenderer(&#xa;    new MyIconLabelRenderer(resources));&#xa;&#xa;//Columnes de clases&#xa;for(int i=2; i&lt;9; i++)&#xa;jTable4.getColumnModel().getColumn(i).setCellRenderer(new CellRendererInformes());"/>
+                    <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="jTable4.getTableHeader().setReorderingAllowed(false);&#xa;jTable4.setRowHeight(28);&#xa;&#xa;jTable4.getColumnModel().getColumn(0).setPreferredWidth(160);&#xa;jTable4.getColumnModel().getColumn(1).setPreferredWidth(90);&#xa;&#xa;//Columna de data + comentari&#xa;Icon[] resources = new Icon[]{&#xa;    IconUtils.getBlankIcon(),&#xa;    IconUtils.getIconResource(getClass().getClassLoader(), &quot;org/iesapp/modules/presencia/icons/postit.gif&quot;)};&#xa;&#xa;jTable4.getColumnModel().getColumn(1).setCellRenderer(&#xa;    new MyIconLabelRenderer(resources));&#xa;&#xa;//Columnes de clases&#xa;for(int i=2; i&lt;9; i++)&#xa;jTable4.getColumnModel().getColumn(i).setCellRenderer(new CellRendererInformes());"/>
                     <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="modelTable4 = new javax.swing.table.DefaultTableModel(&#xa;            new Object [][] {&#xa;&#xa;            },&#xa;            new String [] {&#xa;                &quot;&quot;, &quot;Dia&quot;, &quot;1a hora&quot;, &quot;2a hora&quot;, &quot;3a hora&quot;,&#xa;                &quot;4a hora&quot;, &quot;5a hora&quot;, &quot;6a hora&quot;, &quot;7a hora&quot;&#xa;            }&#xa;       );"/>
                   </AuxValues>
                 </Component>
